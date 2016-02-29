@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".InformacoesActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginLeft="18dp"
+        android:text="@string/name"
+        android:id="@+id/txtName"
+        android:layout_marginTop="15dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:editable="false"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:text="Test"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginLeft="18dp"
+        android:text="@string/surname"
+        android:id="@+id/txtSurname"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/edtSurname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:editable="false"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginLeft="18dp"
+        android:text="@string/age"
+        android:id="@+id/txtAge"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/edtAge"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:editable="false"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginLeft="18dp"
+        android:text="@string/phone"
+        android:id="@+id/txtPhone"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:editable="false"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:layout_marginRight="15dp" />
+
+
+</LinearLayout>

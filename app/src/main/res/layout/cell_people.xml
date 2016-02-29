@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgPeople"
+        android:layout_gravity="left"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/a"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:id="@+id/txtPeople"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="center_vertical"
+        android:layout_height="50dp"
+        android:text="Name Surname"
+        android:layout_marginLeft="10dp" />
+</LinearLayout>
